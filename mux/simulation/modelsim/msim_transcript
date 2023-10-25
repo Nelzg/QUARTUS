@@ -1,0 +1,51 @@
+# Reading D:/QUARTUS/modelsim_ase/tcl/vsim/pref.tcl
+# do my_mux_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/QUARTUS/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux {C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux/my_mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:35:58 on Oct 25,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux" C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux/my_mux.v 
+# -- Compiling module my_mux
+# 
+# Top level modules:
+# 	my_mux
+# End time: 00:35:58 on Oct 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux/my_mux_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:36:11 on Oct 25,2023
+# vlog -reportprogress 300 -work work C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux/my_mux_tb.v 
+# -- Compiling module my_mux_tb
+# 
+# Top level modules:
+# 	my_mux_tb
+# End time: 00:36:11 on Oct 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.my_mux_tb
+# vsim -gui -l msim_transcript work.my_mux_tb 
+# Start time: 00:36:17 on Oct 25,2023
+# Loading work.my_mux_tb
+# Loading work.my_mux
+# Load canceled
+run -all
+#                    0  --->  1 1 0 0 1 0 0 000 1
+#                    5  --->  1 1 0 0 1 0 0 001 1
+#                   10  --->  1 1 0 0 1 0 0 010 0
+#                   15  --->  1 1 0 0 1 0 0 011 0
+#                   20  --->  1 1 0 0 1 0 0 110 0
+#                   25  --->  1 1 0 0 1 0 1 110 1
+# ** Note: $stop    : C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux/my_mux_tb.v(53)
+#    Time: 30 ps  Iteration: 0  Instance: /my_mux_tb
+# Break in Module my_mux_tb at C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux/my_mux_tb.v line 53
+# End time: 00:37:13 on Oct 25,2023, Elapsed time: 0:00:56
+# Errors: 1, Warnings: 0

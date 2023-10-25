@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/simulation/modelsim
+vfull_adderV
+!s110 1698165950
+!i10b 1
+!s100 5@XzX0jP^JVoaa;c>140^0
+ImU@8VH]7gj^`S5oLK`oVz3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1698092875
+8C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV.v
+FC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1698165949.000000
+!s107 C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project|C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project
+Z7 tCvgOpt 0
+nfull_adder@v
+vfull_adderV_tb
+!s110 1698166065
+!i10b 1
+!s100 zlZM`]n8iJ?f3RUmSDl^31
+IW]Zi1C[lO4fPYC]5E7bEP2
+R1
+R0
+R2
+8C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV_tb.v
+FC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1698166065.000000
+!s107 C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV_tb.v|
+!i113 1
+o-work work
+R7
+nfull_adder@v_tb
+vhalf_adderV
+!s110 1698165949
+!i10b 1
+!s100 o]XY78PHzL<OLZ^oF`1300
+I]b;Uo^j:VMD8D`K4izJhG2
+R1
+R0
+R2
+8C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/half_adderV.v
+FC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/half_adderV.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/half_adderV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project|C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/half_adderV.v|
+!i113 1
+R5
+R6
+R7
+nhalf_adder@v

@@ -1,0 +1,7 @@
+module my_mux(input a, b, c, d, addr, output, mux_out)
+
+	wire [3:0] in_vec = {d, c, b, a};
+
+	assign mux_out = in_vec[addr];
+
+endmodule 

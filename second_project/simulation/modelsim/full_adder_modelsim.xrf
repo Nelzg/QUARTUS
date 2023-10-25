@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/half_adderV.v
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV_tb.v
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/full_adderV.v
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/second_project/db/full_adder.cbx.xml
+design_name = full_adderV
+instance = comp, \fsum~output , fsum~output, full_adderV, 1
+instance = comp, \fcarry_out~output , fcarry_out~output, full_adderV, 1
+instance = comp, \a~input , a~input, full_adderV, 1
+instance = comp, \c~input , c~input, full_adderV, 1
+instance = comp, \b~input , b~input, full_adderV, 1
+instance = comp, \HA2|sum1~0 , HA2|sum1~0, full_adderV, 1
+instance = comp, \or1~0 , or1~0, full_adderV, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
