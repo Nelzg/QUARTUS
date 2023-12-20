@@ -264,7 +264,7 @@
 '''
 
 <img src="./flip_flop/flip_flop.png" alt="Схема тиратрона" width="600" />
-<img src="./flip_flop/flip_flop_bits.png" alt="Схема тиратрона" width="600" />
+<img src="./flip_flop/flip_flop_timing.png" alt="Схема тиратрона" width="600" />
 
 # Mod 10 counter
 ## Mod 10 counter code
@@ -311,7 +311,7 @@
 '''
 
 <img src="./mod10/mod10.png" alt="Схема тиратрона" width="600" />
-<img src="./mod10/mod10_bits.png" alt="Схема тиратрона" width="600" />
+<img src="./mod10/mod10_timing.png" alt="Схема тиратрона" width="600" />
 
 # 4 bit left shift register
 ## 4 bit left shift register code
@@ -362,7 +362,7 @@
 '''
 
 <img src="./lshift4b/lshift4b.png" alt="Схема тиратрона" width="600" />
-<img src="./lshift4b/lshift4b_bits.png" alt="Схема тиратрона" width="600" />
+<img src="./lshift4b/lshift4b_timing.png" alt="Схема тиратрона" width="600" />
 
 # Result
 All elements pass all tests, behave same as in examples
