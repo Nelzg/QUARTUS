@@ -18,17 +18,13 @@ module mux_counter_tb;
 	always #10 clk = ~clk;
 	initial begin
 		{clk, b, c, d, e, f, g} <= 0;
-		//{out[0],out[1],out[2],out[3], out[4],out[5], out[6]} <= 0;
+
 		a <= 0;
 		addr <= 0;
 		#40;
 		a<=1;
 		
-		#40; 
-		
-	
-		//$monitor("%d  --->  %b %b %b %b %b %b %b %b %b",$time, a, b, c, d, e, f, g, addr);
-
+		#40;
 		a <= out[0];
 		b <= out[1];
 		c <= out[2];
@@ -89,7 +85,7 @@ module mux_counter_tb;
 		addr <= 3;
 		
 		#40;
-		f <= 0;
+		f <= 1;
 
 		#800 $finish;
 	end
