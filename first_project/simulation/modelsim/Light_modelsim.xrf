@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/first_project/Light.v
-source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/first_project/db/Light.cbx.xml
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project/Light.v
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project/db/Light.cbx.xml
 design_name = Light
 instance = comp, \f~output , f~output, Light, 1
 instance = comp, \x1~input , x1~input, Light, 1

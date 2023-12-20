@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project/simulation/modelsim
+vLight
+!s110 1703069575
+!i10b 1
+!s100 hBIZ6RI:TQVMnVe[:E3DI3
+I]5l4ZaM5eH2AL8MVb27DE0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1698090884
+8C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project/Light.v
+FC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project/Light.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1703069575.000000
+!s107 C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project/Light.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project|C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project/Light.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/QUARTUS/first_project
+tCvgOpt 0
+n@light
