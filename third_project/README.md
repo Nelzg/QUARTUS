@@ -310,8 +310,8 @@
 
 '''
 
-<img src="./mod10/mod10.png" alt="Схема тиратрона" width="600" />
-<img src="./mod10/mod10_timing.png" alt="Схема тиратрона" width="600" />
+<img src="./mod10_count/mod10.png" alt="Схема тиратрона" width="600" />
+<img src="./mod10_count/mod10_timing.png" alt="Схема тиратрона" width="600" />
 
 # 4 bit left shift register
 ## 4 bit left shift register code
