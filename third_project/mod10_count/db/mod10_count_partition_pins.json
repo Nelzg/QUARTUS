@@ -20,11 +20,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "rstn",
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
 					"strict" : false
 				},
 				{
 					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
 					"strict" : false
 				}
 			]

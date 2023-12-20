@@ -1,6 +1,6 @@
 module mod10_count ( input clk,
                        input rstn,
-                       output reg[3:0] out);
+                       output reg[6:0] out);
 
   always @ (posedge clk)
   begin
@@ -10,7 +10,7 @@ module mod10_count ( input clk,
     end
     else
     begin
-      if (out == 10)
+      if (out == 128)
         out <= 0;
       else
         out <= out + 1;

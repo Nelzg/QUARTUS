@@ -1,5 +1,5 @@
 Flow report for mod10_count
-Wed Dec 20 02:26:59 2023
+Wed Dec 20 20:19:58 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Dec 20 02:26:59 2023       ;
+; Flow Status                        ; Successful - Wed Dec 20 20:19:58 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; mod10_count                                 ;
 ; Top-level Entity Name              ; mod10_count                                 ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/20/2023 02:26:52 ;
+; Start date & time ; 12/20/2023 20:19:49 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mod10_count         ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 2545115591577.170302841210868          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 2545115591577.170309278942824          ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; mod10_count_tb ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; mod10_count_tb                         ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
@@ -95,8 +95,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:07     ; 1.0                     ; 4711 MB             ; 00:00:03                           ;
-; Total                  ; 00:00:07     ; --                      ; --                  ; 00:00:03                           ;
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4710 MB             ; 00:00:03                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:03                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,0 +1,52 @@
+module my_mux_tb;
+	reg a,
+		 b,
+		 c,
+		 d,
+	    e,
+		 f,
+		 g;
+		 
+	reg [2:0] addr;
+		 
+	wire res;
+	
+	reg clk, rstn;
+	wire [3:0] out;
+	mod10_count u0 ( .clk(clk), .rstn(rstn), .out(out));
+	
+		 
+	my_mux my_mux_res(a, b, c, d, e, f, g, addr, res);
+	
+	always #10 clk = ~clk;
+	initial begin
+		{clk, rstn} <= 0;
+		#10 rstn <= res;
+		
+	
+		$monitor("%d  --->  %b %b %b %b %b %b %b %b %b",$time, a, b, c, d, e, f, g, addr, res);
+
+		a <= out[0];
+		b <= out[1];
+		c <= out[2];
+		d <= out[3];
+		e <= out[4];
+		f <= out[5];
+		g <= out[6];
+		addr <= 0;
+	
+		#5;
+		addr <= 1;
+
+		#5;
+		addr <= 2;
+
+		#5;
+		addr <= 3;
+		
+		#5;
+		addr <= 6;
+
+		#450 $finish;
+	end
+endmodule 

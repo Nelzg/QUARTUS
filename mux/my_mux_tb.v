@@ -26,30 +26,21 @@ module my_mux_tb;
 		addr = 0;
 	
 		#5;
-		
 		addr = 1;
-		
 
 		#5;
-		
 		addr = 2;
-		
 
 		#5;
-		
 		addr = 3;
 		
-
 		#5;
-		
 		addr = 6;
 
 		#5;
-		
 		g = 1;
 		
 		#5;
-		
 		$stop;
 	end
 endmodule 
