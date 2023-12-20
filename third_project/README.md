@@ -116,9 +116,9 @@
 
 '''
 
-![full_adder.png](attachment:full_adder.png)
-![full_adder_bits.png](attachment:full_adder_bits.png)
-![full_adder_timing.png](attachment:full_adder_timing.png)
+<img src="./full_adder/full_adder.png" alt="Схема тиратрона" width="600" />
+<img src="./full_adder/full_adder_bits.png" alt="Схема тиратрона" width="600" />
+<img src="./full_adder/full_adder_timing.png" alt="Схема тиратрона" width="600" />
 
 # Demultiplexer 1x4
 
@@ -163,9 +163,9 @@
 
 '''
 
-![demux1x4.png](attachment:demux1x4.png)
-![demux1x4_bits.png](attachment:demux1x4_bits.png)
-![demux1x4_timing.png](attachment:demux1x4_timing.png)
+<img src="./demux1x4/demux1x4.png" alt="Схема тиратрона" width="600" />
+<img src="./demux1x4/demux1x4_bits.png" alt="Схема тиратрона" width="600" />
+<img src="./demux1x4/demux1x4_timing.png" alt="Схема тиратрона" width="600" />
 
 # 2x1 multiplexer
 ## 2x1 multiplexer
@@ -208,9 +208,9 @@
 
 '''
 
-![mux2x1.png](attachment:mux2x1.png)
-![mux2x1_bits.png](attachment:mux2x1_bits.png)
-![mux2x1_timing.png](attachment:mux2x1_timing.png)
+<img src="./mux2x1/mux2x1.png" alt="Схема тиратрона" width="600" />
+<img src="./mux2x1/mux2x1_bits.png" alt="Схема тиратрона" width="600" />
+<img src="./mux2x1/mux2x1_timing.png" alt="Схема тиратрона" width="600" />
 
 # JK flip flop
 ## JK flip flop code
@@ -263,8 +263,8 @@
 
 '''
 
-![flip_flop.png](attachment:flip_flop.png)
-![flip_flop_timing.png](attachment:flip_flop_timing.png)
+<img src="./flip_flop/flip_flop.png" alt="Схема тиратрона" width="600" />
+<img src="./flip_flop/flip_flop_bits.png" alt="Схема тиратрона" width="600" />
 
 # Mod 10 counter
 ## Mod 10 counter code
@@ -309,8 +309,9 @@
 	endmodule   
 
 '''
-![mod10.png](attachment:mod10.png)
-![mod10_timing.png](attachment:mod10_timing.png)
+
+<img src="./mod10/mod10.png" alt="Схема тиратрона" width="600" />
+<img src="./mod10/mod10_bits.png" alt="Схема тиратрона" width="600" />
 
 # 4 bit left shift register
 ## 4 bit left shift register code
@@ -360,8 +361,8 @@
 
 '''
 
-![lshift4b.png](attachment:lshift4b.png)
-![lshift4b_timing.png](attachment:lshift4b_timing.png)
+<img src="./lshift4b/lshift4b.png" alt="Схема тиратрона" width="600" />
+<img src="./lshift4b/lshift4b_bits.png" alt="Схема тиратрона" width="600" />
 
 # Result
 All elements pass all tests, behave same as in examples
