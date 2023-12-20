@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/third_project/combo/combo.v
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/third_project/combo/combo_tb.v
+source_file = 1, C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/third_project/combo/db/combo.cbx.xml
+design_name = combo
+instance = comp, \z~output , z~output, combo, 1
+instance = comp, \e~input , e~input, combo, 1
+instance = comp, \c~input , c~input, combo, 1
+instance = comp, \d~input , d~input, combo, 1
+instance = comp, \a~input , a~input, combo, 1
+instance = comp, \b~input , b~input, combo, 1
+instance = comp, \z~0 , z~0, combo, 1
+instance = comp, \z~1 , z~1, combo, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

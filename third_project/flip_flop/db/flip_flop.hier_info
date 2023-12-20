@@ -1,0 +1,8 @@
+|flip_flop
+j => q.IN1
+k => q.IN1
+rstn => q~reg0.ACLR
+clk => q~reg0.CLK
+q << q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

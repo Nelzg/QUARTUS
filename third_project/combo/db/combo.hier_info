@@ -1,0 +1,9 @@
+|combo
+a => z.IN0
+b => z.IN1
+c => z.IN0
+d => z.IN1
+e => z.IN1
+z << z.DB_MAX_OUTPUT_PORT_TYPE
+
+

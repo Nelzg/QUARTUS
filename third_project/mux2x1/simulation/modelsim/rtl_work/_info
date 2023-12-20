@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/simulation/modelsim
+vmux2x1
+!s110 1703025730
+!i10b 1
+!s100 CDPe?6VlR7ZZzmfGL;;bL1
+I;:B<he9z6fU]R>[ofekYo0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703025619
+8C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1.v
+FC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1703025730.000000
+!s107 C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1|C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1
+Z6 tCvgOpt 0
+vmux2x1_tb
+!s110 1703025731
+!i10b 1
+!s100 47VXKz8fFfbA2X>^Q>6Zj2
+IYdF5K>^fn::WE8g:PFOkj3
+R1
+R0
+w1703025673
+8C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1_tb.v
+FC:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1|C:/Users/denis/OneDrive/Desktop/lab_work/QuartusFPGA/mux2x1/mux2x1_tb.v|
+!i113 1
+R4
+R5
+R6

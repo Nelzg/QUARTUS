@@ -1,0 +1,7 @@
+module ha(input a,b, output sum, count);
+	always @ (a or b) begin
+		{count, sum} = a + b;
+	end
+endmodule
+
+
